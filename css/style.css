@@ -1,0 +1,1003 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+i{
+    color: rgb(209, 2, 2);
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* *******************************Actual CSS Start************************** */
+
+
+/* *******************************Main Header Start************************** */
+
+
+.mainheader{
+    width: 100%;
+    padding: 0px 15px;
+    background: rgb(10, 10, 10);
+    background-attachment: fixed;
+}
+.header_background{
+    background: rgb(10, 10, 10);
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+}
+
+.header_logo{
+    margin-top: 10px;
+}
+.header_logo img{
+    font-size: 5rem;
+}
+ 
+.header_logo h3{
+    color: rgb(209, 2, 2);
+    font-family: 'Poppins', sans-serif;
+}
+.header_logo p{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10px;
+}
+
+.header_service h3{
+    margin-top: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header_service p{
+    color: white;
+    margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header_service{
+    margin-top: 20px;
+}
+.header_service_button{
+    padding-bottom: 10px;
+}
+.header_service_button a{
+    border: 2px solid #ffffff;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.header_service_button a:hover{
+    background: #ffffff;
+    color: rgb(209, 2, 2);
+    box-shadow: 0 0 25px 0 rgb(255, 145, 0);
+
+}
+.header_service_button i{
+    font-size: 2rem;
+}
+
+.header_contact{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.header_contact h3{
+    color: rgb(209, 2, 2);
+    font-weight: bold;
+    text-align: center;
+}
+
+.header_contact h1{
+    color: #ffffff;
+}
+
+/* *******************************Main Header End************************** */
+
+/* *******************************Navbar Start************************** */
+
+.navbar{
+    background: rgb(199, 13, 13);
+}
+
+.header_menu{
+    width: 100%;
+}
+
+
+
+
+.nav-item a{
+    color: #ffffff!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item a:hover{
+    color: #000000!important;
+}
+
+
+.navbar-brand{
+    color: #ffffff!important;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* *******************************Navbar End************************** */
+
+
+/* *******************************Slider Start************************** */
+.carousel-fixed{
+    background-attachment: fixed;
+}
+
+.carousel-caption{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-caption h1{
+    color: rgb(209, 2, 2);
+    font-weight: bold;
+}
+.carousel-caption h2{
+    color: rgb(209, 2, 2);
+    font-weight: bold;
+}
+.carousel-caption p{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* *******************************Slider End************************** */
+
+/* <!-- ******************************Main Home Sart************************** --> */
+
+
+/* <!-- ******************************Main Home End************************** --> */
+
+/* **********************Offer section Start************************* */
+
+.serviceoffers{
+    background: #f2f2f8;
+    padding: 50px 0px;
+    margin: 50px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.headings{
+    margin-bottom: 50px;
+}
+
+.headings h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.headings p{
+    color: grey;
+}
+
+.inpercent h1{
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6d6c6c;
+}
+.service-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress{
+    height: 0.6rem!important;
+    margin-bottom: 25px!important;
+}
+
+
+.extrasoffer{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+.extrasoffer:hover{
+    background: #000000;
+    color: #ffffff;
+    box-shadow: 20px 20px 20px rgb(77, 76, 76);
+    transform: translateY(-10px);
+}
+.extrasoffer_pic{
+    width: 10rem;
+    padding: 0px 20px;
+}
+
+.extraoffer-card{
+    padding: 20px 50px;
+    background: rgb(168, 167, 167);
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* .extraoffercard-pic{
+    text-align: center;
+} */
+
+/* **********************Offer section End************************* */
+
+
+/* **********************Contract Start************************* */
+
+.pricing{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px;
+}
+
+.pricing:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;
+    background: linear-gradient(160deg, rgb(212, 38, 38) 55%, #fff 0%);
+    /* background: linear-gradient(160deg, rgb(255, 65, 65) 55%, rgb(255, 65, 65) 0%,  rgb(255, 255, 255) 55%);
+    filter: hue-rotate(120deg);
+    animation: animate 10s linear infinite; */
+    background-attachment: fixed;
+}
+/* @keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}  */
+
+.money{
+    font-size: 40px;
+    line-height: 1;
+    color: #606060;
+}
+
+.card{
+    transition: 0.4s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: white!important;
+    padding: 25px 0px!important;
+    text-transform: uppercase;
+    color: #606060;
+}
+
+.card-body{
+    padding: 30px 0px!important;
+}
+
+.card-body li{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: #606060;
+}
+
+.card-footer{
+    background: white!important;
+    padding: 30px 0px!important;
+}
+
+.card-footer a{
+    border: 1px solid rgb(209, 2, 2);
+    border-radius: 100px;
+    margin: 0px 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: rgb(209, 2, 2);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.card:hover .card-footer a{
+    color: #fff;
+    background: rgb(209, 2, 2);
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    font-weight: bold;
+}
+
+.card:hover .card-header, .card:hover .money{
+    color: rgb(209, 2, 2);
+}
+/* **********************Contract End************************* */
+
+
+/* **********************Our client Response Start************************* */
+
+.happyclient{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.happyclient-center{
+    background: rgb(212, 38, 38);
+    padding: 20px 10px;
+}
+.box{
+    background: #ffffff;
+    text-align: center;
+    border:1px solid rgba(0,0,0,0.2);
+    /* box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3); */
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.box a{
+    position: relative;
+}
+
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.box h2{
+    font-size: 1rem;
+    color: #666666;
+}
+
+.box h1{
+    font-size: 1.5rem;
+    color: rgb(209, 2, 2);
+}
+
+.box:hover{
+    background: #000000;
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.8);
+}
+
+
+.carousel-indicators{
+    position: absolute;
+    right: 0px;
+    bottom: -60px!important;
+}
+
+.carousel-indicators li{
+    background-color: rgb(209, 2, 2)!important;
+}
+/* **********************Our client Response End************************* */
+
+/* **********************About us Start************************* */
+
+.aboutus{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../pics/bgabout2.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+    transition-duration: 1s;
+    background-attachment: fixed;
+    text-align: center;
+    padding:50px 0px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    /* box-shadow: 20,20,20px,20 rgba(0, 0, 0,); */
+}
+
+.aboutus h1{
+    font-size: 4rem!important;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 20px,20px,20px,20px rgb(255, 0, 0)!important;
+
+}
+
+.aboutus-heading p{
+    color: #ffffff;
+}
+.abuoutus-pes-head{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.aboutus-pes{
+    /* background: #ffffff; */
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.6 ease;
+}
+
+.aboutus-pes img{
+    width: 200px;
+}
+
+.aboutus-pes p{
+    color: #ffffff;
+}
+
+.aboutmeasim{
+    margin-top: 50px;
+    margin-bottom   : 50px;
+}
+
+.aboutmeasim-per{
+    /* background: #ffffff; */
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    padding: 10px;
+    color: #ffffff;
+    transition: 0.6s ease;
+}
+
+.aboutmeasim-per h2{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.aboutmeasim-per img{
+    width: 100px;
+}
+
+.statistic-value{
+    margin-top: 50px;
+}
+.statistic-value h1{
+    color: rgb(243, 150, 150);
+}
+.statistic-value p{
+    color: #ffffff;
+}
+
+/* --------------------hOW TO USE START---------- */
+/* 
+.howtouse-heading{
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.howtouse-heading h1{
+    font-weight: bold;
+    color: rgb(209, 2, 2);
+}
+
+.howtouse{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../pics/bgabout2.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+    transition-duration: 1s;
+    background-attachment: fixed;
+    text-align: center;
+    padding:100px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.howtouse-list li{
+    text-align: left;
+    color: white;
+    margin: 50px 0px;
+    list-style: square!important;
+} */
+/* --------------------hOW TO USE End---------- */
+
+/* **********************About End************************* */
+
+/* **********************Direct Contact Start************************* */
+.directcontact{
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+.directcontact-container{
+    background: rgb(212, 38, 38);
+    transition: 1s ease;
+    padding: 20px 0px;
+}
+
+.directcontact-container:hover{
+    background: rgb(0, 0, 0);
+    /* box-shadow: 0,0,20px,0 rgb(255, 0, 0,); */
+    /* border-radius: 50px; */
+}
+
+.directcontact-container h1{
+    color: white;
+}
+.directcontact-container p{
+    color: white;
+    font-weight: 500;
+}
+
+.directcontact-container img{
+    width: 150px;
+}
+.directcontact-container i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+/* **********************Direct Contact End************************* */
+
+/* **********************Contact us start************************* */
+
+.contact{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    position: relative;
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+
+.contact:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(340deg, rgb(212, 38, 38) 55%, #fff 0%);
+    /* background: linear-gradient(340deg, rgb(255, 65, 65) 55%, rgb(255, 65, 65) 0%,  rgb(255, 255, 255) 55%);
+    filter: hue-rotate(120deg);
+    animation: animate 10s linear infinite; */
+    background-attachment: fixed;
+    z-index: -1;
+}
+/* 
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}  */
+
+.form-button button{
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    padding: 12px 35px;
+    color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-weight: bold; 
+    background: transparent; 
+    border: none;
+    /* transition: 0s ease; */
+    /* background: linear-gradient(120deg, rgb(255, 65, 65) 55%, rgb(255, 65, 65) 0%,  rgb(255, 65, 65) 55%);
+    filter: hue-rotate(120deg);
+    animation: animate 5s linear infinite; */
+}
+
+/* @keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+} */
+
+.form-button button{
+    /* background: #fff; */
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    /* box-shadow: 0,0,20px,0 rgb(0, 0, 0, 0.3); */
+
+}
+
+.form-button button:hover{
+    color: rgb(209, 2, 2);
+    background: #ffffff;
+    border: 2px solid #fff;
+    /* box-shadow: 0,0,20px,0 rgb(0, 0, 0, 0.3); */
+    box-shadow: 0 0 25px 0 rgb(255, 145, 0);
+}
+
+::placeholder{
+    font-size: 0.80rem;
+}
+/* **********************Contact us End************************* */
+
+
+/* **********************Scrolltop button Statr************************* */
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: white;
+    background: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    /* transition: 0.8s ease; */
+    /* box-shadow: 0 0 25px 0 rgb(255, 145, 0);
+    background: linear-gradient(120deg, rgb(255, 65, 65) 55%, rgb(255, 65, 65) 0%,  rgb(255, 65, 65) 55%);
+    filter: hue-rotate(120deg);
+    animation: animate 5s linear infinite; */
+}
+
+/* @keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+} */
+
+
+#myBtn:hover{
+    /* background: black; */
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+    cursor: pointer;
+     
+}
+
+
+
+/* **********************Scrolltop button End************************* */
+
+/* **********************Footer Start************************* */
+
+
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px 20px 0px;
+    background: rgb(10, 10, 10);
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    padding: 50px 20px;
+}
+
+.footersection p{
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.footersection li{
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footersection h3{
+   text-transform: uppercase;
+   color: #fff;
+   margin-bottom: 25px;
+   font-size: 1.2rem!important;
+   font-weight: bold;
+   text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+   text-align: center;
+}
+
+.footer-link a:hover{
+    color: rgb(214, 210, 210);
+    text-decoration: none;
+}
+
+.footer-main{
+    margin-top: 10px;
+    background: #cc1414;
+    color: white;
+    padding: 5px 20px 0px 20px;
+    background: rgb(0, 0, 0);
+}
+
+.footer-main a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-main a:hover{
+    color: rgb(214, 210, 210);
+    text-decoration: none;
+}
+
+
+ 
+
+/* **********************Footer End************************* */
+
+/* *******************************Media Queries End************************** */
+
+
+@media(max-width: 900px){
+    .header_logo{
+        text-align: center;
+    }
+    
+    .header_service{
+        text-align: center;
+    }
+
+    .header_contact{
+        text-align: center;
+    }
+    
+}
+
+@media(max-width: 800px){
+    .header_logo{
+        text-align: center;
+    }
+    
+    .header_service{
+        text-align: center;
+    }
+
+    .header_contact{
+        text-align: center;
+    }
+    .pricing{
+        padding: 150px;
+    }
+    .happyclient{
+        margin-top: 50px;
+    }
+    .statistic-value h2{
+        font-size: 1.3rem!important;
+    }
+}
+
+@media(max-width: 700px){
+    .header_logo{
+        text-align: center;
+    }
+    
+    .header_service{
+        text-align: center;
+    }
+
+    .header_contact{
+        text-align: center;
+    }
+    .pricing{
+        padding: 50px;
+    }
+    .happyclient{
+        height: auto;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 600px){
+    .header_logo{
+        text-align: center;
+    }
+    
+    .header_service{
+        text-align: center;
+    }
+
+    .header_contact{
+        text-align: center;
+    }
+
+    .extrasoffer_pic{
+        display: none;
+    }
+}
+
+@media(max-width: 500px){
+    .header_logo{
+        text-align: center;
+    }
+    
+    .header_service{
+        text-align: center;
+    }
+
+    .header_contact{
+        text-align: center;
+    }
+}
+
+@media(max-width: 400px){
+    .header_logo{
+        text-align: center;
+    }
+    
+    .header_service{
+        text-align: center;
+    }
+
+    .header_contact{
+        text-align: center;
+    }
+    .header_contact h3{
+        font-size: 1.2rem;
+    }
+    .header_contact h1{
+        font-size: 1.5rem;
+    }
+
+    .service-icons, .extrasoffer_pic{
+        display: none;
+    }
+
+    .directcontact-container h1{
+        font-size: 1.5rem;
+    }
+    .directcontact-container p{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 300px){
+    .header_logo{
+        text-align: center;
+    }
+    
+    .header_service{
+        text-align: center;
+    }
+
+    .header_contact{
+        text-align: center;
+    }
+
+    .header_contact h3{
+        font-size: 1.2rem;
+    }
+    .header_contact h1{
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand{
+        font-size: 1rem;
+    }
+
+    .service-icons{
+        display: none;
+    }
+    .servicediv{
+        margin-top: 80px;
+    }
+    .extrasoffer p{
+        font-size: 0.7rem;
+    }
+    .extrasoffer h2{
+        font-size: 1.2rem;
+    }
+
+    .card-footer a{
+        font-size: 0.8rem;
+    }
+    .pricing{
+        padding: 20px;
+    }
+    
+}
+
+@media(max-width: 200px){
+    .header_logo{
+        text-align: center;
+    }
+    
+    .header_service{
+        text-align: center;
+    }
+
+    .header_contact{
+        text-align: center;
+    }
+
+    .header_contact h3{
+        font-size: 0.8rem;
+    }
+    .header_contact h1{
+        font-size: 1rem;
+    }
+
+    .service-icons{
+        display: none;
+    }
+    .servicediv{
+        margin-top: 50px;
+    }
+
+    
+}
+
+/* @media(max-width: 768px){
+    .header_logo{
+        text-align: center;
+    }
+    
+    .header_service{
+        text-align: center;
+    }
+
+    .header_contact{
+        text-align: center;
+    }
+}
+
+@media(max-width: 280px){
+    .header_contact h3{
+        font-size: 1.2rem;
+    }
+    .header_contact h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 320px){
+    .header_contact h3{
+        font-size: 1.4rem;
+    }
+    .header_contact h1{
+        font-size: 2rem;
+    }
+} */
+
+
+
+
+
+
+
